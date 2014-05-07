@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="Lex.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="Interpreter.h" />
+    <ClInclude Include="Opcode.h" />
+    <ClInclude Include="ERROR.h" />
+    <ClInclude Include="Function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lex.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Symbol.cpp" />
+    <ClCompile Include="Interpreter.cpp" />
+    <ClCompile Include="ERROR.cpp" />
+  </ItemGroup>
+</Project>
